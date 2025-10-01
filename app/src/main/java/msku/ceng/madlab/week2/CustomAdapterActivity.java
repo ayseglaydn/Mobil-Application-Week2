@@ -28,6 +28,8 @@ public class CustomAdapterActivity extends AppCompatActivity {
 
         animals.add(new Animal("Cat",R.mipmap.cat));
         animals.add(new Animal("Dog",R.mipmap.dog));
+        animals.add(new Animal( "Butterfly",R.mipmap.butterfly));
+        animals.add(new Animal("Bird",R.mipmap.bird ));
 
 
         final ListView listView=(ListView) findViewById(R.id.listView);
